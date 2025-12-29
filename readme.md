@@ -173,24 +173,27 @@ After classification, you can:
 ```
 ai-dermatology-classifier/
 │
-├── dermatology_app.py          # Main Streamlit application
-├── efficientnet_best.pth       # Trained model weights
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── run_app.sh
 │
-├── assets/                     # Images and media files
-│   └── screenshots/
+├── dermatology_gui.py              # Main Streamlit application
 │
-├── models/                     # Model architecture files
-│   └── efficientnet.py
+├── saved_models/                   # Trained model weights
+│   ├── efficientnet_best.pth
+│   ├── mobilenet_best.pth
+│   └── Logistic_Regression_model.pkl
 │
-├── utils/                      # Utility functions
-│   ├── preprocessing.py        # Image preprocessing
-│   └── visualization.py        # Plotting functions
+├── training_model/                            # Training & data preparation scripts
+│   ├── Prep.py
+│   ├── Efficient.py
+│   ├── Mobile.py
+│   └── Logistic_Regression.py
 │
-└── notebooks/                  # Jupyter notebooks
-    ├── training.ipynb          # Model training
-    └── evaluation.ipynb        # Model evaluation
+├── data/                           # (Not uploaded – contains train/val/test folders)
+│
+└── assets/                         # (Optional – screenshots, logos, etc.)
 ```
 
 ---
@@ -217,13 +220,13 @@ ai-dermatology-classifier/
 
 This project was developed by a dedicated team of 5 members:
 
-| Name | Role | GitHub |
+| Name | Role | Linked-in |
 |------|------|--------|
-| **[Your Name]** | Project Lead & ML Engineer | [@your-github](https://github.com/your-github) |
-| **[Team Member 2]** | Computer Vision Engineer | [@member2-github](https://github.com/member2) |
-| **[Team Member 3]** | Frontend Developer | [@member3-github](https://github.com/member3) |
-| **[Team Member 4]** | Data Engineer | [@member4-github](https://github.com/member4) |
-| **[Team Member 5]** | UI/UX Designer | [@member5-github](https://github.com/member5) |
+| **[Eman Metaweh]** | Project Lead & ML Engineer | [@member1-github](https://github.com/your-github) |
+| **[Asem Ahmed]** | Computer Vision Engineer | [@your-github](https://github.com/member2) |
+| **[Ahmed Amer]** | Frontend Developer | [@member3-github](https://github.com/member3) |
+| **[Elsayed Hassan]** | Data Engineer | [@member4-github](https://github.com/member4) |
+| **[Ahmed Abdelmoneem]** | UI/UX Designer | [@member5-github](https://github.com/member5) |
 
 ### Contributions
 - **Data Collection & Preprocessing**: [Team Member Names]
@@ -261,8 +264,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaboration opportunities:
 
-- **Email**: your-email@example.com
-- **Project Repository**: [GitHub Link](https://github.com/your-repo)
+- **Email**: asemfared958@gmail.com
+- **Project Repository**: [GitHub Link](https://github.com/AsemFared435/Ai-dermatology-classifier/)
 ---
 
 ## 🌟 Star the Repository

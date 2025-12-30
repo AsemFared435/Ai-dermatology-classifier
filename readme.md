@@ -140,7 +140,7 @@ ai-dermatology-classifier/
 │   ├── mobilenet_best.pth             # Alternative model (MobileNet-V3)
 │   └── Logistic_Regression_model.pkl  # Baseline model (scikit-learn)
 │
-├── training_model/                     # Training and preprocessing scripts
+├── training_models/                     # Training and preprocessing scripts
 │   ├── Prep.py                        # Data splitting (train/val/test)
 │   ├── Efficient.py                   # EfficientNet training script
 │   ├── Mobile.py                      # MobileNet training script
@@ -329,8 +329,6 @@ This project was developed by a team of 5 members as part of our computer vision
 | **Ahmed Amer** | ML Engineer & Model Training | [🔗 LinkedIn](https://www.linkedin.com/in/ahmed-amer-8a0888394?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) |
 | **Ahmed Abdelmoneem** | GUI Support & Testing | [🔗 LinkedIn](#) |
 
-*Replace names and LinkedIn URLs with your team's information*
-
 ---
 
 ## 🔮 Future Work
@@ -391,7 +389,7 @@ The models and code are provided "as-is" without warranty of any kind. The autho
 ## 📧 Contact
 
 For questions, collaborations, or feedback:
-- **GitHub Issues**: [Open an issue](https://github.com/AsemFared435/Ai-dermatology-classifier/)
+
 - **Email**: asemfared958@gmail.com
 
 ---

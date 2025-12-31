@@ -9,7 +9,7 @@ venv/
 .env.*
 .venv/
 
-# Data folders (لا ترفع الداتا)
+# Data folders 
 Data/
 data/
 train/
